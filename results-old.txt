@@ -1,0 +1,57 @@
+--------------------------------------------Apriori-----------------------------------------------
+Dataset: Accidents
+Transactions count: 340,183
+Mem usage (mb): [203.163, 146.169, 177.713]
+Stopped at size: [10, 8, 6]
+Execution times (ms): [706950, 60819, 14647]
+Frequent itemsets: [8057, 529, 31]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Chess
+Transactions count: 3,196
+Mem usage (mb): [113.857, 14.358, 13.265]
+Stopped at size: [17, 14, 8]
+Execution times (ms): [5869332, 91253, 5170]
+Frequent itemsets: [1272931, 48731, 622]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Connect
+Transactions count: 67557
+Mem usage (mb): [x, x, 50.86]
+Stopped at size: [16, 14, 13]
+Execution times (ms): [x, x, 1363614]
+Frequent itemsets: [x, x, 27127]
+Min Support: [0.8, 0.85, 0.9]
+
+
+-------------------------------------------Optimzed Apriori---------------------------------------
+Dataset: Accidents
+Transactions count: 340,183
+Mem usage (mb): [265.74,126.303,129.506]
+Stopped at size: [10,8,6]
+Execution times (ms): [2374316, 261548, 27226]
+Frequent itemsets: [8057, 529, 31]
+Min Support: [0.5, 0.7, 0.9]
+
+
+-----------------------------------------------IIMFIs--------------------------------------------
+Dataset: Accidents
+Transactions count: 340,183
+Mem usage (mb): 1.703
+Execution times (ms): [15635, 9759, 8491]
+Maximal frequent itemsets: [216, 23, 1]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Chess
+Transactions count: 3,196
+Mem usage (mb): 1.703
+Execution times (ms): [9067, 1252, 722]
+Maximal frequent itemsets: [11463, 891, 34]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Connect
+Transactions count: 67,557
+Mem usage (mb): 1.703
+Execution times (ms): [12155, 11116, 4202]
+Maximal frequent itemsets: [673, 454, 222]
+Min Support: [0.8, 0.85, 0.9]

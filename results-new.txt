@@ -1,0 +1,72 @@
+------------------------------IIMFs--------------------------------
+Dataset: Accidents
+Transactions count: 10,000
+Mem usage (mb): [1.703, 62.029, 42.809]
+Execution times (ms): [3170, 1456, 572]
+Maximal frequent itemsets: [224, 27, 27]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Chess
+Transactions count: 3,196
+Mem usage (mb): [1.703, 18.196, 50.196]
+Execution times (ms): [8390, 558, 520]
+Maximal frequent itemsets: [11,463, 891, 891]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Connect
+Transactions count: 10,000
+Mem usage (mb): [1.703, 17.914, 48.355]
+Execution times (ms): [10542, 2550, 1107]
+Maximal frequent itemsets: [1498, 440, 440]
+Min Support: [0.5, 0.7, 0.9]
+
+---------------------------------Optimized Apriori----------------------------
+Dataset: Accidents
+Transactions count: 10,000
+Algo stopped at size: [11, 8, 4]
+Mem usage (mb): [60.116, 44.975, 72.473]
+Execution times (ms): [98708, 15324, 692]
+Frequent itemsets: [7905, 651, 39]
+Min Support: [0.5, 0.7, 0.9]
+
+
+Dataset: Chess
+Transactions count: 3196
+Algo stopped at size: []
+Mem usage (mb): []
+Execution times (ms): []
+Frequent itemsets: []
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Connect
+Transactions count: 10,000
+Algo stopped at size: [14, 11, 8]
+Mem usage (mb): [228.902, 207.901, 173.179]
+Execution times (ms): [196641, 30369, 2340]
+Frequent itemsets: [48731, 8227, 622]
+Min Support: [0.7, 0.8, 0.9]
+
+--------------------------------- Apriori ----------------------------
+Dataset: Accidents
+Transactions count: 10,000
+Algo stopped at size: [11, 8, 4]
+Mem usage (mb): [44.659, 28.659, 20.643]
+Execution times (ms): [52128, 7824, 623]
+Frequent itemsets: [7905, 651, 39]
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Chess
+Transactions count: 3196
+Algo stopped at size: []
+Mem usage (mb): []
+Execution times (ms): []
+Frequent itemsets: []
+Min Support: [0.5, 0.7, 0.9]
+
+Dataset: Connect
+Transactions count: 10000
+Algo stopped at size: []
+Mem usage (mb): []
+Execution times (ms): []
+Frequent itemsets: []
+Min Support: [0.7, 0.8, 0.9]
